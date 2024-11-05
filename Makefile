@@ -11,7 +11,7 @@ CFLAGS  := -Wall -Wextra -Wpedantic -Wno-unused-parameter -Werror \
            -Wconversion -std=c99 -g -O0
 LDFLAGS := -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined
 
-SRCS := src/main.c
+SRCS := src/main.c src/ip.c
 
 all: $(BUILD_ROOT) $(BUILD_TARGET)
 
