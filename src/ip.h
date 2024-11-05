@@ -11,8 +11,7 @@ struct ipv4_address {
 };
 
 struct ipv4_header {
-    unsigned char version;
-    unsigned char ihl;
+    unsigned char vhl;
     unsigned char tos;
     unsigned short total_length;
     unsigned short id;
